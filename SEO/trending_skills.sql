@@ -1,1 +1,1 @@
-Required fields (for example search term, timestamp, frequency, category mapping, etc.)
+from post

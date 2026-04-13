@@ -8,7 +8,7 @@
 ---- 7. SMB Signup (#)
 WITH base AS (
     SELECT
-        date_trunc('week', uvs.session_start_date)                                                                    AS week_
+        date_trunc('week', uvs.session_start_date)                                                                   AS week_
         , count(distinct uvs.visitor_id)                                                                              AS visitors
         , count(distinct case when sasf.marketing_channel_group = 'SEM' then uvs.visitor_id end)                      AS sem_visitors
         , count(distinct case when sasf.marketing_channel_group = 'SEO' then uvs.visitor_id end)                      AS seo_visitors
