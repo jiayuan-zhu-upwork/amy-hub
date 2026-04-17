@@ -21,7 +21,7 @@
 -- how it works: upwork_surface = 'i_how-it-works'
 -- Metric Needed:
 -- CTR: cnt_visitors_w_click / visitors
--- Median session: meadian(median_duration_seconds)
+-- Median session: median(median_duration_seconds)
 -- Visit → CL Reg 1D: cnt_cl_reg_conversion_1d / visitors
 --  ↳ Visit → SMB Reg 1D: cnt_smb_signup / visitors
 --  ↳ SMB Reg (#): cnt_smb_signup
